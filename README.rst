@@ -15,7 +15,3 @@ This should work MacOX and Linux::
 If you need help finding TEXMFHOME try::
 
 	cat `kpsewhich texmf.cnf` | grep "^TEXMFHOME"
-
-or::
-
-	tlmgr conf | grep "TEXMFHOME"
